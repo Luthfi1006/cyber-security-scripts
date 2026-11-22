@@ -3,24 +3,24 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![GUI](https://img.shields.io/badge/GUI-Tkinter-brightgreen?style=flat-square)](https://docs.python.org/3/library/tkinter.html)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/Luthfi1006/cyber-security-scripts)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)](https://github.com/Luthfi1006/cyber-security-scripts)
 
 An educational cryptography suite built in Python featuring interactive desktop interfaces and exhaustive, step-by-step mathematical breakdowns of classical cipher algorithms. Designed for computer science students, security researchers, and cryptography enthusiasts.
 
 ---
 
-## ?? Overview
+## Overview
 
 Understanding how classical ciphers operate under the hood is fundamental to grasping modern cryptanalysis and information theory. This repository provides standalone implementations of classical substitution and transposition techniques, coupled with dynamic GUI visualizers that decompose encryption and decryption pipelines into deterministic, auditable steps.
 
-### Highlights
+### Key Highlights
 - **Zero External Dependencies**: Pure Python implementation leveraging standard libraries (`tkinter`, `math`).
 - **Granular Execution Trace**: Displays intermediate states, index mapping, modulo arithmetic calculations, and transposition matrix transformations.
 - **Bi-directional Support**: Seamless encryption and decryption with full case-preservation and configurable padding.
 
 ---
 
-## ??? Included Algorithms
+## Included Algorithms
 
 ### 1. Caesar Cipher (`caesar.py`)
 A monoalphabetic substitution cipher based on cyclic shifts over modular arithmetic space $\mathbb{Z}_{26}$.
@@ -40,7 +40,7 @@ A complex permutation cipher that arranges plaintext into two consecutive geomet
 
 ---
 
-## ?? Repository Structure
+## Repository Structure
 
 ```text
 cyber-security-scripts/
@@ -54,7 +54,7 @@ cyber-security-scripts/
 
 ---
 
-## ?? Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher.
@@ -85,7 +85,7 @@ cyber-security-scripts/
 
 ---
 
-## ?? Sample Execution Trace
+## Sample Execution Trace
 
 ### Caesar Cipher Trace Output
 ```text
@@ -110,7 +110,7 @@ Final Ciphertext: FBEHU
 
 ---
 
-## ?? Security Disclaimer
+## Security Disclaimer
 
 The algorithms implemented in this repository are **historical ciphers** intended strictly for **educational and research demonstrations**. They do not provide cryptographic confidentiality against modern cryptanalysis (such as frequency analysis or brute-force search) and **must not be used to protect sensitive or production data**.
 
@@ -118,13 +118,13 @@ For secure communications, industry-standard cryptographic algorithms such as AE
 
 ---
 
-## ?? License
+## License
 
 This project is open-source software licensed under the terms of the [MIT License](LICENSE).
 
 ---
 
-## ????? Author
+## Author
 
 **Muhamad Luthfi Abdullah**  
 - GitHub: [@Luthfi1006](https://github.com/Luthfi1006)
